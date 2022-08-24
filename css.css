@@ -1,0 +1,93 @@
+.marco{
+    max-width: 600px;
+    height: auto;
+    box-shadow: 1px 2px 7px #808991;
+    margin: 0 auto;
+    background-color: #F8F9F9;
+}
+
+.botones{
+    max-width: 400px;
+    height: 650px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.button{
+    background-color: green;
+    color: white;
+    font-size: 14px;
+    border-radius: 3px;
+    width: auto;
+    height: 20px;
+}
+
+.titulo{
+    margin-bottom: 20px;
+    background-color: white;
+    padding: 25px;
+    font-size: 18px;
+}
+
+.descripcion{
+    background-color: #F8F9F9; 
+}
+
+.btn-tienda{
+    color: white;
+    background-color: #239B56;
+    border-radius: 20px;
+    border: #239B56;
+    height: 30px;
+    width: inherit;
+    font-weight: 700;
+    box-shadow: 2px 3px 7px #808b96;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.parraf{
+    margin: 0;
+}
+
+.cards{
+    background-color: white;
+    margin: 20px 0;
+    border: #515A5A;
+    box-shadow: 1px 2px 7px #808991;
+    padding: 15px 0;
+}
+
+.img{
+    float: left;
+    margin: 11px 15px 10px 20px;
+}
+
+.btnntext{
+    display: inline-block;
+    text-align: initial;
+    width: 155px;
+}
+
+@media (max-width: 366px) {
+.cards{
+    margin: 20px !important;
+    text-align: center;
+}
+
+.botones{
+    height: 925px;
+}
+
+.img{
+    width: -webkit-fill-available;
+}
+
+.number{
+    text-align: center;
+}
+
+  }
